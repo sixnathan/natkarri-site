@@ -2,14 +2,15 @@ import VersoBlog
 import Site.Home 
 import Site.Blog 
 import Site.About  
-import Site.Companies
+import Site.Companies 
 open Verso Genre Blog Site Syntax 
 
 def natkarri : Site := site Site.Home / 
-  "nat" Site.Home
-  "blog" Site.Blog 
-  "about" Site.About 
-  "companies" Site.Companies
+"home" Site.Home
+"blog" Site.Blog 
+"companies" Site.Companies
+"about" Site.About 
+
 
 def main := blogMain .default natkarri 
 
