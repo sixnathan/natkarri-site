@@ -13,7 +13,7 @@ open Verso Genre Blog
   *also did* 
   * European Summer Program in Rationality (ESPR) (2026)
 
-  i was born in colchester, england. 
+  i attended harrow school, and was born in colchester, england. 
   
   this site was written in lean using [verso](https://verso.lean-lang.org/)
 
