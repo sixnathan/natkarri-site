@@ -5,8 +5,10 @@ open Verso Genre Blog
 #doc (Page) "about" =>
   hi im nathan `nat` karri. 
 
-  i am a theorem prover, type checker, and machine learner. i learned to program ~6 months ago.  
-  currently also an undergraduate at carnegie mellon university. before this, i worked at [truedan](https://www.truedan.com.tw/) as a barista, but was fired. 
+  i am a theorem prover, type checker, and machine learner.   
+  currently also an undergraduate at carnegie mellon university. 
+
+  before this, i worked at [truedan](https://www.truedan.com.tw/) as a barista, but was fired. 
 
   *also did* 
   * European Summer Program in Rationality (ESPR) (2026)
