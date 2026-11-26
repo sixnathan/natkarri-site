@@ -5,6 +5,7 @@ import Site.About
 open Verso Genre Blog Site Syntax 
 
 def natkarri : Site := site Site.Home / 
+  "main" Site.Home
   "blog" Site.Blog 
   "about" Site.About 
 
