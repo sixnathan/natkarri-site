@@ -9,7 +9,6 @@ open Verso Genre Blog Site Syntax
 
 def natkarri : Site := site Site.Home / 
 "home" Site.Home
-"blog" Site.Blog 
 "interests" Site.Interests
 "about" Site.About 
 "contact" Site.Contact 
