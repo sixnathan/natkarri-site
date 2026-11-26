@@ -1,0 +1,25 @@
+name: deploy
+
+on:
+  push:
+    branches: [main]   # run every time you push to main
+  workflow_dispatch:   # also lets you press "Run workflow" in the Actions tab
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest   # a fresh Linux machine from GitHub
+    steps:
+      # get your files
+      - uses: actions/checkout@v4
+
+      # install Lean (reads lean-toolchain), cache .lake/, run `lake build`
+      - uses: leanprover/lean-action@v1
+
+      # generate the site into _site/
+      - run: lake run versoMain Main.lean
+
+      # upload _site/ using wrangler.jsonc (runs `wrangler deploy`)
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
