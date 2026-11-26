@@ -5,10 +5,14 @@ open Verso Genre Blog
 #doc (Page) "about" =>
   hi im nathan `nat` karri. 
 
-  i am currently an undergraduate at CMU. 
+  i am a theorem prover, type checker, and machine learner. i learned to program ~6 months ago.  
+  currently also an undergraduate at carnegie mellon university. before this, i worked at [truedan](https://www.truedan.com.tw/) as a barista, but was fired. 
 
-  before, i took a gap year to work at [truedan](https://www.truedan.com.tw/) as a barista, but was fired. 
+  *also did* 
+  * European Summer Program in Rationality (ESPR) (2026)
 
+  i was born in colchester, england. 
+  
   this site was written in lean using [verso](https://verso.lean-lang.org/)
 
 

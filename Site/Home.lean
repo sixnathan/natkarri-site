@@ -1,5 +1,5 @@
 import VersoBlog
 open Verso Genre Blog 
 
-#doc (Page) "nat" => 
+#doc (Page) "home" => 
 
