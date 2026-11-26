@@ -1,4 +1,5 @@
-open Verso Genre About
+import VersoBlog 
+open Verso Genre Blog
 
 
-#doc (Page) "books" =>
+#doc (Page) "about" =>
