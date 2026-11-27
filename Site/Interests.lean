@@ -5,7 +5,7 @@ open Verso Genre Blog
 #doc (Page) "interests" =>
 
   `current` 
-  * [theorem proving in lean 4](https://leanprover.github.io/theorem_proving_in_lean4/)
+  * [theorem proving in lean 4](/interests/theoremproving)
   * [lean game server](https://adam.math.hhu.de/)
   
   `previous`
