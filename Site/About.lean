@@ -10,9 +10,6 @@ open Verso Genre Blog
 
   before this, i worked at [truedan](https://www.truedan.com.tw/) as a barista, but was fired. 
 
-  *also did* 
-  * European Summer Program in Rationality (ESPR) (2026)
-
   i was born in colchester, england. 
   
   this site was written in lean using [verso](https://verso.lean-lang.org/)
