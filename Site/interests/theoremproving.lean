@@ -8,7 +8,7 @@ authors := ["by nat"]
 date := {year := 2026, month := 11, day := 27}
 %%%
 
-currently reading: [theorem proving in lean 4](https://leanprover.github.io/theorem_proving_in_lean4/). 
+currently reading: [theorem proving in lean 4](https://leanprover.github.io/theorem_proving_in_lean4/) 
 
 
 
